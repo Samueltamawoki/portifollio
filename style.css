@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #5C1374;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5C1374;
+    color: orange;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    padding-top: 80px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 57, 57);
+    color: orange;
+}
+
+h1{
+    text-align: center;
+}
+
+.imagemFoto {
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+}
+
+.projetos{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 57, 57);
+}
+
+.imagemprojetos{
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.sobreMim {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
